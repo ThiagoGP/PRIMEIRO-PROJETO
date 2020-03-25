@@ -1,0 +1,231 @@
+@import "https://fonts.googleapis.com/css?family=Roboto&display=swap";
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+    background: white;
+    color: black;
+}
+
+header{
+    width: 0px;
+    height: 0px;
+    margin-bottom: 93px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+header div a{
+
+    text-decoration: #111111;
+    color:#111111;
+  
+}
+
+
+#principal{
+   
+    width: 90.6px;
+    height: 26.9px;
+    padding: 36.1px 122.4px 30px 230px;
+    font-family: Roboto-Cochin;
+    font-size: 28px;
+    color: #111111;
+    letter-spacing: 1.65px;
+     
+}
+
+#sobre{
+   padding: 38px 30px 36px 0px;
+   width: 42px;
+   height: 19px;
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    
+}
+
+#receitas{
+    padding: 38px 0px 36px 0px;
+    width: 62px;
+    height: 19px;
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    
+    
+}
+
+footer{
+    width: 1400px ;
+    height: 62px;
+    background: #EEEEEE 100%;
+    
+}
+
+footer p{
+    padding-top: 23px;
+    text-align: center;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+   color: #999999;
+}
+
+.cardinfo{
+   
+   
+    padding-bottom: 0px;
+    background: #FBDFDB;
+    border-radius: 30px;
+    border-radius: 30px;
+    width: 940px;
+    height: 366px;
+    margin-left: 230px;
+  
+    
+}
+
+.cardinfo img{
+    padding-top: 66px;
+    padding-right: 100px;
+    float: right;
+}
+
+.cardinfo h1{
+    width: 305px;
+    height: 38px;
+
+    font-family: Roboto-Bold;
+    font-size: 32px;
+   color: #111111;
+    padding-top: 117px;
+    padding-left: 60px;
+    line-height: 38px;
+}
+
+.cardinfo p{
+    padding-top: 10px;
+    padding-left: 60px;
+    
+    opacity: 0.7;
+font-family: Roboto-Regular;
+font-size: 19px;
+color: #000000;
+line-height: 28px;
+}
+
+.name2 h1 {
+    margin-top: 50px;
+    margin-left: 230px;
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    color: #111111;
+}
+
+/*===CARDS RECEITAS MAIS ACESSADAS===*/
+.tops{
+    width: 300px;
+    margin-top:20px;
+    margin-bottom: 50px;
+   margin-left: 230px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  
+}
+.cardimg img{
+   
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+
+  
+}
+
+.cardnome {
+    width: 230px;
+     font-size: 18px;
+     padding-top: 20px;
+    margin-right: 0;
+    padding-bottom: 5px;
+ }
+
+.cardfeito{
+    width: 230px;
+    font-size: 14px;
+    color: #777777;
+    padding-bottom: 30px;
+}
+
+/*========SOBRE=========*/
+
+.info1 h1{
+    
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    color: #111111; 
+    margin-left: 230px;
+    padding-top: 50px;
+}
+
+.p1,
+.p2,
+.p3
+{
+   
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+    margin-left: 230px;
+}
+
+.p1{
+  
+    padding-top: 20px;
+}
+
+
+.info2 h1{
+    margin-left: 230px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: Roboto-Bold;
+    font-size: 20px;
+     color: #111111;
+}
+.p2{
+    padding-bottom: 30px;
+}
+
+.info3 h1{
+    margin-left: 230px;
+    padding-bottom: 30px;
+    font-family: Roboto-Bold;
+    font-size: 20px;
+    color: #111111;
+}
+
+.p3{
+    padding-bottom: 50px;
+}
+
+/*=======CARD RECEITAS========*/
+
+.cardreceita{
+    
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-left: 230px;
+   gap: 20px
+}
+
+.cardreceita2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-left: 230px;
+}
+
+
